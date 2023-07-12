@@ -1,0 +1,1 @@
+export const items = Array(10).fill(0).map((_, index) => ({id: index, name: `Item #${index}`}))
